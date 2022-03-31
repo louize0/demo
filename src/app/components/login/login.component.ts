@@ -9,7 +9,9 @@ import { environment as env } from 'src/environments/environment';
 })
 export class LoginComponent implements OnInit {
 
-  loginImg = `${env.ASSETS}login-img.png`
+ 
+  loginImg= `${env.ASSETS}logo.png`
+
 
   constructor() { }
   
