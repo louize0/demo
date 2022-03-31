@@ -1,0 +1,140 @@
+$primary: #39B54A;
+$secondary: #108043;
+$whitedefault: #ffff;
+
+.form-container{
+  background-color: white;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(99, 115, 129, 0.03), 0px 6px 24px rgba(99, 115, 129, 0.09), 0px 6px 8px rgba(99, 115, 129, 0.09);
+  border-radius: 12px;
+  height: 25rem;
+  width: 25rem;
+}
+
+.login-content{
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0rem 2rem;
+
+}
+
+.loginTEXT{
+  margin-top:1.5rem;
+  color: $primary ;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.029rem;
+}
+
+.logo-info{
+  margin: .5rem 0rem ;
+  text-align: center;
+  color:#5E738A; 
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  letter-spacing: 0.029rem;
+}
+
+
+.ema-pass-form{
+  display: grid;
+  margin: .8rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.029rem;
+
+}
+
+form{
+  
+  label{
+    font-size: .8rem;
+    margin-bottom: .2rem
+
+  }
+
+    input{
+      font-size: .8rem;
+      border-radius: .375rem;
+      height: 1.563rem;
+      border-radius: 0.5rem;
+      --tw-bg-opacity: 1;
+      background-color: rgba(244, 246, 248, var(--tw-bg-opacity));
+      padding: 0.5rem;
+      outline: none;
+      outline-offset: 2px;
+      border: none;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: .5rem;
+      
+    }
+  
+}
+
+/*.password{
+  outline: none;
+}
+*/
+
+input[type="text"]{
+  padding: 2.5rem;
+}
+
+.btn{
+  justify-self: center;
+  border: 2px solid $primary;
+  transition: all 300ms ease-in-out;
+  &:hover{
+    background-color: transparent;
+    color: $primary;
+    border: 2px solid $primary;
+  }
+}
+
+button{
+  margin-top: 1rem;
+  background: $primary;
+  border-radius: 10px;
+  color: $whitedefault;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.029rem;
+  
+}
+
+.txt-acct{
+  
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.029rem;
+  color: #5E738A;
+  font-size: .7rem;
+}
+
+
+.loginhere-txt{
+  color: $primary;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.029rem;
+  text-align: center;
+  
+}
+
+.acct{
+  display: grid;
+  justify-content: center;
+}
